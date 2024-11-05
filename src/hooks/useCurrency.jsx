@@ -39,7 +39,6 @@ export const useCurrency = () =>{
             'x-api-key': import.meta.env.VITE_API_KEY
             }
         }).then((response) => response.json()).then((data) => {
-            console.log(data);
             setAmountToReceive(amountToSend * data.data.balam_rate)
             setCurrencyData(data.data)
 
