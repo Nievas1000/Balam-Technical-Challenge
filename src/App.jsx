@@ -10,7 +10,7 @@ function App() {
 
   return (
     <section>
-      <div className='main-container d-flex justify-content-center align-items-center'>
+      <div className='main-container d-flex justify-content-center align-items-center pt-4'>
         <div>
           <div>
             <span>Tu envias exactamente</span>

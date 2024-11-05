@@ -4,7 +4,7 @@ import balam from '../assets/balam-logo.png'
 export const Footer = () =>{
     return(
         <>
-            <span>Tu dinero llega en 15 minutos</span>
+            <span>Tu dinero llega en 15 <span className='fw-bold'>minutos</span></span>
             <div className='d-flex justify-content-end button-container'>
                 <button className='send-button'>Enviar ahora</button>
             </div>
