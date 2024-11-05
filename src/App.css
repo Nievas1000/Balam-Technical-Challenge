@@ -1,0 +1,93 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  font-size: 14px;
+}
+
+.main-container {
+  background-color: #FFFFFF !important;
+  border-radius: 10px;
+  width: 487px;
+  height: 618px;
+}
+
+.currency-selector-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 426px;
+  height: 73px;
+}
+
+.currency-input {
+  width: 70%;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 18px;
+}
+
+.currency-input::-webkit-outer-spin-button,
+.currency-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.currency-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  width: 30%;
+}
+
+.currency-container img {
+  border-radius: 50%;
+  height: 20px;
+  width: 22px;
+}
+
+.currency-flag {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.currency-select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.validate-time {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.button-container {
+  padding-top: 71px;
+}
+
+.send-button {
+  background-color: #50B361;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 206px;
+  height: 49px;
+  font-weight: 700;
+}
+
+.powered-by {
+  color: #1120DC;
+  font-size: 14px;
+  font-weight: 700;
+}
